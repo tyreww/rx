@@ -1,0 +1,38 @@
+{
+    "name": "XrayHeroku",
+    "description": "xray websocket proxy on heroku",
+    "keywords": ["xray vmess vless trojan shadowsocks socks tor"],
+    "env": {
+        "AA": {
+            "description": "cj",
+            "value": "cj"
+        },
+        "AUUID": {
+            "description": "cj",
+            "value": "ffffffff-ffff-ffff-ffff-ffffffffffff"
+        },
+        "CADDYIndexPage": {
+            "description": "cj",
+            "value": "https://github.com/AYJCSGM/mikutap/archive/master.zip"
+        },
+        "CONFIGCADDY": {
+            "description": "cj",
+            "value": "https://raw.githubusercontent.com/tyreww/x/master/etc/Caddyfile"
+        },
+        "CONFIGXRAY": {
+            "description": "cj",
+            "value": "https://raw.githubusercontent.com/tyreww/x/master/etc/xray.json"
+        },
+        "ParameterSSENCYPT": {
+            "description": "cj",
+            "value": "chacha20-ietf-poly1305"
+        },
+        "StoreFiles": {
+            "description": "cj",
+            "value": "https://raw.githubusercontent.com/tyreww/x/master/etc/StoreFiles"
+        }
+    },
+    "website": "https://github.com/tyreww/x",
+    "repository": "https://github.com/tyreww/x",
+    "stack": "container"
+}
